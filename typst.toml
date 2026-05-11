@@ -1,0 +1,15 @@
+[package]
+name = "epsi-thesis"
+version = "0.1.0"
+entrypoint = "src/lib.typ"
+authors = ["Luís Cunha"]
+license = "MIT"
+description = "A standard thesis template for the University of Minho (UMinho)"
+repository = "https://github.com/luiscunha13/epsi-thesis"
+keywords = ["thesis", "university", "minho", "uminho", "epsi", "template", "portuguese"]
+exclude = ["**.pdf", "test.typ", "original/"]
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+thumbnail = "thumbnail.png"
